@@ -1,11 +1,15 @@
-from django.shortcuts import render
 from django.contrib.auth import authenticate, login, logout
-from django.urls import reverse
 from .forms import SignUpForm, SignInForm
 from django.shortcuts import redirect, render
 
 
-
+def index(request):
+    title = "Main Page"
+    
+    context = {
+        'title': title,
+    }
+    return render(request, 'accounts/index.html', context)
 
 
 def signup(request):
