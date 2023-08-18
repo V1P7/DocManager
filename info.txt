@@ -1,0 +1,5 @@
+Super User
+Login: root
+Password: root
+
+pip install -r requirements.txt
