@@ -9,6 +9,7 @@ opencv-python==4.8.0.76
 pdf2docx==0.5.6
 pdfrw==0.4
 Pillow==10.0.0
+psycopg2==2.9.7
 PyMuPDF==1.22.5
 pypdf==3.15.1
 PyPDF2==3.0.1
@@ -18,3 +19,4 @@ six==1.16.0
 sqlparse==0.4.4
 termcolor==2.3.0
 tqdm==4.66.1
+typing_extensions==4.7.1
